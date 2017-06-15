@@ -19,7 +19,7 @@ $.ajax({
 $('#header').hide();
 $('#output').html('');
 for(var i = 0;i<data[1].length;i++){
-$('#output').append("<div><div class='btn'><a href = "+data[3][i]+ "><h2>"+ data[1][i]+"</h2>" +  "<p>" + data[2][i]+ "</p></a></div></div>");
+$('#output').append("<div><div class='output'><a href = "+data[3][i]+"><h2>"+ data[1][i]+"</h2>" +  "<p>" + data[2][i]+ "</p></a></div></div>");
 }
 $('#searchTerm').val('');
   },

@@ -1,11 +1,17 @@
 html,body {
   background-color: #f6f6f6;
 }
-
+h2{
+  /*text-align: center;*/
+}
 p {
   color: #36c;
   font-family: 'Montserrat', sans-serif;
    text-decoration: none;
+   list-style: none;
+   border: 3px solid #f7deaf;
+   margin: 10px 10px 10px 10px;
+   background-color: white;
 }
 a:hover {
   text-decoration: none;
@@ -36,12 +42,12 @@ a:hover {
   font-family: 'Montserrat', sans-serif;
   font-weight: bold;
   text-decoration: none;
-  
+
 }
-li {
+/*li {
   list-style: none;
   border: 3px solid #f7deaf;
   margin: 10px 10px 10px 10px;
   background-color: white;
 
-}
+}*/
